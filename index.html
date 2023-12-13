@@ -9,10 +9,10 @@
 <body>
     <div class ="container">
      <img src="http://placekitten.com/300/200" alt="" />
-     <p class ="instruction"
+     <p class ="instruction">
        This project is inside a small container, you can click to add the counter or hold down the button to speed up the counter.
     </p>
-    <h2 id="h22">Select your color <span id="colorOutput"></span></h2>
+    <h2 id="h2">Select your color <span id="colorOutput"></span></h2>
     <label>red:</label>
     <input type="range" id="rangeRed" value="0" min="0" max="255" />
     <label>green:</label>
@@ -21,8 +21,8 @@
     <label>blue:</label>
     <input type="range" id="rangeBlue" value="168" min="0" max="255" />
     <br />
-    <button class="large red button" onclick="btnPressed()">Button</button>
-    <p>Clicks: <a id="clicks">0</a></p>
+    <button onclick="totalClick(1)">Button</button>
+    <p>Clicks: <a id="totalClicks">0</a></p>
     </div>
     <script src="script.js"></script>
 </body>
